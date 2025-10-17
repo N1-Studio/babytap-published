@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>サポート - ベビタップ</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        header {
+            background-color: #4A90E2;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+            margin: -20px -20px 30px -20px;
+        }
+
+        h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        h2 {
+            color: #4A90E2;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 22px;
+            border-bottom: 2px solid #4A90E2;
+            padding-bottom: 5px;
+        }
+
+        h3 {
+            color: #666;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+
+        p, li {
+            margin-bottom: 10px;
+        }
+
+        ul {
+            margin-left: 20px;
+        }
+
+        a {
+            color: #4A90E2;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .feature-box {
+            background-color: #f0f8ff;
+            border-left: 4px solid #4A90E2;
+            padding: 15px;
+            margin: 20px 0;
+        }
+
+        .faq-item {
+            background-color: #f9f9f9;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+
+        .faq-question {
+            font-weight: bold;
+            color: #4A90E2;
+            margin-bottom: 10px;
+        }
+
+        .contact-box {
+            background-color: #fff3cd;
+            border-left: 4px solid: #ffc107;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 5px;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            text-align: center;
+            color: #666;
+            font-size: 14px;
+        }
+
+        .lang-toggle {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .lang-toggle button {
+            background-color: #4A90E2;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 0 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .lang-toggle button:hover {
+            background-color: #357ABD;
+        }
+
+        .lang-section {
+            display: none;
+        }
+
+        .lang-section.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>サポート</h1>
+            <div class="subtitle">ベビタップ (BabyTap)</div>
+        </header>
+
+        <div class="lang-toggle">
+            <button onclick="showLanguage('ja')">日本語</button>
+            <button onclick="showLanguage('en')">English</button>
+        </div>
+
+        <!-- 日本語版 -->
+        <div id="ja-content" class="lang-section active">
+            <h2>アプリについて</h2>
+            <p>ベビタップは、赤ちゃんや小さなお子様向けのインタラクティブな音楽・お絵描きアプリです。</p>
+
+            <div class="feature-box">
+                <h3>主な機能</h3>
+                <ul>
+                    <li><strong>ピアノ:</strong> カラフルな鍵盤をタップして音楽を楽しめます</li>
+                    <li><strong>お絵描き:</strong> 指で画面をなぞって自由にお絵描きができます</li>
+                    <li><strong>サウンドタイル:</strong> 動物や乗り物の音が楽しめるタイル画面</li>
+                    <li><strong>広告を見てアンロック:</strong> 広告を視聴することで一定時間すべての機能をご利用いただけます</li>
+                </ul>
+            </div>
+
+            <h2>よくある質問（FAQ）</h2>
+
+            <div class="faq-item">
+                <div class="faq-question">Q1: 広告が表示されませんが、どうすればいいですか？</div>
+                <p><strong>A:</strong> 以下の点をご確認ください：</p>
+                <ul>
+                    <li>インターネット接続が有効になっているか確認してください</li>
+                    <li>アプリを再起動してみてください</li>
+                    <li>デバイスの広告設定を確認してください</li>
+                </ul>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q2: アンロック時間が表示されない、または動作しません</div>
+                <p><strong>A:</strong> 以下をお試しください：</p>
+                <ul>
+                    <li>アプリを完全に終了して再起動してください</li>
+                    <li>デバイスを再起動してみてください</li>
+                    <li>それでも問題が解決しない場合は、下記のお問い合わせ先までご連絡ください</li>
+                </ul>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q3: 音が出ません</div>
+                <p><strong>A:</strong> 以下をご確認ください：</p>
+                <ul>
+                    <li>デバイスの音量設定を確認してください</li>
+                    <li>マナーモード/サイレントモードが有効になっていないか確認してください</li>
+                    <li>オプション画面で音量設定を確認してください</li>
+                </ul>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q4: お絵描きの線がうまく描けません</div>
+                <p><strong>A:</strong></p>
+                <ul>
+                    <li>画面をゆっくりなぞるようにしてください</li>
+                    <li>画面が汚れている場合は、柔らかい布で拭いてください</li>
+                    <li>アプリを再起動してみてください</li>
+                </ul>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q5: アプリが起動しません／クラッシュします</div>
+                <p><strong>A:</strong></p>
+                <ul>
+                    <li>デバイスを再起動してみてください</li>
+                    <li>アプリを削除して再インストールしてください</li>
+                    <li>それでも問題が解決しない場合は、下記のお問い合わせ先までご連絡ください</li>
+                </ul>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q6: 個人情報は収集されますか？</div>
+                <p><strong>A:</strong> 本アプリは、お名前、メールアドレス、電話番号などの個人を特定できる情報を収集することはありません。詳しくは<a href="privacy-policy.html">プライバシーポリシー</a>をご覧ください。</p>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q7: 広告をオフにすることはできますか？</div>
+                <p><strong>A:</strong> 現在、広告を完全にオフにする機能は提供しておりません。広告のパーソナライゼーションは、デバイスの設定からオプトアウトできます。</p>
+                <p><strong>iOS:</strong> 設定 → プライバシーとセキュリティ → Appleの広告 → パーソナライズされた広告をオフ</p>
+                <p><strong>Android:</strong> 設定 → Google → 広告 → 広告のパーソナライゼーションをオプトアウト</p>
+            </div>
+
+            <div class="contact-box">
+                <h2>お問い合わせ</h2>
+                <p>アプリに関するご質問、ご意見、不具合の報告などがございましたら、以下までご連絡ください。</p>
+                <p><strong>開発者:</strong> 小林正英 (Masahide Kobayashi)<br>
+                <strong>メールアドレス:</strong> <a href="mailto:enu.one.studio@gmail.com">enu.one.studio@gmail.com</a></p>
+
+                <h3>お問い合わせの際は、以下の情報をご記載いただけるとスムーズです:</h3>
+                <ul>
+                    <li>デバイスのモデル（例: iPhone 14, iPad Pro）</li>
+                    <li>OSのバージョン（例: iOS 17.1）</li>
+                    <li>アプリのバージョン（現在: 1.0.0）</li>
+                    <li>問題の詳細な説明</li>
+                    <li>スクリーンショット（該当する場合）</li>
+                </ul>
+                <p>通常、1〜3営業日以内にご返信いたします。</p>
+            </div>
+
+            <h2>リンク</h2>
+            <ul>
+                <li><a href="privacy-policy.html">プライバシーポリシー</a></li>
+                <li><a href="https://apps.apple.com/jp/app/" target="_blank">App Storeページ</a>（公開後に更新予定）</li>
+            </ul>
+        </div>
+
+        <!-- English Version -->
+        <div id="en-content" class="lang-section">
+            <h2>About the App</h2>
+            <p>BabyTap is an interactive music and drawing app for babies and young children.</p>
+
+            <div class="feature-box">
+                <h3>Main Features</h3>
+                <ul>
+                    <li><strong>Piano:</strong> Tap colorful keys to enjoy music</li>
+                    <li><strong>Drawing:</strong> Draw freely by tracing your finger on the screen</li>
+                    <li><strong>Sound Tiles:</strong> Enjoy sounds of animals and vehicles on tiles</li>
+                    <li><strong>Unlock by Watching Ads:</strong> Watch ads to unlock all features for a limited time</li>
+                </ul>
+            </div>
+
+            <h2>Frequently Asked Questions (FAQ)</h2>
+
+            <div class="faq-item">
+                <div class="faq-question">Q1: Ads are not showing. What should I do?</div>
+                <p><strong>A:</strong> Please check the following:</p>
+                <ul>
+                    <li>Ensure your internet connection is active</li>
+                    <li>Try restarting the app</li>
+                    <li>Check your device's ad settings</li>
+                </ul>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q2: Unlock timer is not displayed or not working</div>
+                <p><strong>A:</strong> Please try the following:</p>
+                <ul>
+                    <li>Completely close and restart the app</li>
+                    <li>Restart your device</li>
+                    <li>If the problem persists, please contact us using the information below</li>
+                </ul>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q3: No sound is playing</div>
+                <p><strong>A:</strong> Please check:</p>
+                <ul>
+                    <li>Your device's volume settings</li>
+                    <li>Whether silent/mute mode is enabled</li>
+                    <li>Volume settings in the app's options screen</li>
+                </ul>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q4: Drawing lines are not working properly</div>
+                <p><strong>A:</strong></p>
+                <ul>
+                    <li>Try tracing the screen slowly</li>
+                    <li>If the screen is dirty, wipe it with a soft cloth</li>
+                    <li>Try restarting the app</li>
+                </ul>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q5: App won't start or crashes</div>
+                <p><strong>A:</strong></p>
+                <ul>
+                    <li>Try restarting your device</li>
+                    <li>Delete and reinstall the app</li>
+                    <li>If the problem persists, please contact us using the information below</li>
+                </ul>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q6: Is personal information collected?</div>
+                <p><strong>A:</strong> The app does not collect personally identifiable information such as name, email address, or phone number. For more details, please see our <a href="privacy-policy.html">Privacy Policy</a>.</p>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q7: Can I turn off ads?</div>
+                <p><strong>A:</strong> Currently, we do not offer a feature to completely turn off ads. You can opt out of personalized advertising in your device settings.</p>
+                <p><strong>iOS:</strong> Settings → Privacy & Security → Apple Advertising → Turn off Personalized Ads</p>
+                <p><strong>Android:</strong> Settings → Google → Ads → Opt out of Ads Personalization</p>
+            </div>
+
+            <div class="contact-box">
+                <h2>Contact Us</h2>
+                <p>If you have any questions, feedback, or bug reports about the app, please contact us:</p>
+                <p><strong>Developer:</strong> Masahide Kobayashi<br>
+                <strong>Email:</strong> <a href="mailto:enu.one.studio@gmail.com">enu.one.studio@gmail.com</a></p>
+
+                <h3>When contacting us, please include the following information:</h3>
+                <ul>
+                    <li>Device model (e.g., iPhone 14, iPad Pro)</li>
+                    <li>OS version (e.g., iOS 17.1)</li>
+                    <li>App version (current: 1.0.0)</li>
+                    <li>Detailed description of the issue</li>
+                    <li>Screenshots (if applicable)</li>
+                </ul>
+                <p>We typically respond within 1-3 business days.</p>
+            </div>
+
+            <h2>Links</h2>
+            <ul>
+                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                <li><a href="https://apps.apple.com/app/" target="_blank">App Store Page</a> (To be updated after publication)</li>
+            </ul>
+        </div>
+
+        <footer>
+            <p>&copy; 2025 Masahide Kobayashi. All rights reserved.</p>
+            <p><a href="privacy-policy.html">プライバシーポリシー / Privacy Policy</a></p>
+        </footer>
+    </div>
+
+    <script>
+        function showLanguage(lang) {
+            document.getElementById('ja-content').classList.remove('active');
+            document.getElementById('en-content').classList.remove('active');
+            document.getElementById(lang + '-content').classList.add('active');
+        }
+    </script>
+</body>
+</html>
