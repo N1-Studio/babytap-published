@@ -1,0 +1,6 @@
+# app-ads.txt for BabyTap (ベビタップ)
+# Publisher: Masahide Kobayashi
+# Contact: enu.one.studio@gmail.com
+# Last Updated: 2025-11-09
+
+google.com, pub-1923296951941349, DIRECT, f08c47fec0942fa0
